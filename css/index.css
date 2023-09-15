@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: beige;
+    width: 100%;
+    height:70px;
+    position: relative;   
+}
+.header ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.header ul li{
+    padding: 10px 30px;
+    text-decoration: none;
+    list-style: none;
+}
+.logo{
+    height: 1px;
+}
+img{
+    height: 47px;
+    width: 47px;
+    border-radius: 50%;
+    margin-left: 48px;
+}
+button{
+    background-color: white;
+    width: 30%;
+    height: 25px;
+    margin: 20px;
+}
+.menu{
+    height: 450px;
+    width: 100%;
+    display: flex;
+    margin-top: 0px;
+    margin-left: 0px;
+    background-image: url(../images/images.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    backface-visibility:inherit;
+    justify-content: space-around
+    
+    
+}
+.photo{
+    justify-content: space-between;
+    margin-top: 20px;
+
+}
+.photo h4{
+    text-align: center;
+    color: white;
+}
+.phone{
+    margin-top: 20px;
+}
+.phone h4{
+    color: black;
+    text-align: center;
+}
+.proof h4{
+    color: blue;
+    
+}
+.proof{
+    margin-top: 0px;
+    font-size: 24px;
+
+}
+.oggy{
+    width: 90px;
+    height: 120px;
+}
+.foot{
+    background-image:url(../images/tourimag.jpg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    position: relative
+}
+.image{
+    height: 100px;
+    width: 80px;
+}
+h4{
+    text-align: center;
+}
+span{
+    color: burlywood;
+}
+span1{
+    color: blue
+}
+span3{
+    color:blueviolet
+}
+h5{
+    text-align: center;
+    justify-content: space-between;
+    background-color: white;
+    
+}
+span6{
+    color: blue;
+    text-align: left;
+}
+span7{
+    color: violet;
+    text-align: center;
+}
+ span8{
+    color: skyblue;
+    text-align: right;
+ }
+
+
+    
